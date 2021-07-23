@@ -6,9 +6,9 @@ namespace Generics_Problem_C_Sharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Find Maximum Integer Value");
-            int maxIntValue = CheckMaxIntValue.MaximumIntValue(87, 23, 45);
-            Console.WriteLine("Maximum Value :: " + maxIntValue);
+            Console.WriteLine("Find Maximum Float Value");
+            float floatMaxValue = CheckMaxFloatValue.MaxFloatValue(43.5f, 98.4f, 10.23f);
+            Console.WriteLine("Maximum Float Value is :: " + floatMaxValue);
         }
     }
 }

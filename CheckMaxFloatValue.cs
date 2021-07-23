@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Generics_Problem_C_Sharp
 {
-    class CheckMaxIntValue
+    class CheckMaxFloatValue
     {
-        public static int MaximumIntValue(int fValue, int sValue, int tValue)
+        public static float MaxFloatValue(float fValue, float sValue, float tValue)
         {
             if (fValue.CompareTo(sValue) > 0 && fValue.CompareTo(tValue) > 0)
             {
