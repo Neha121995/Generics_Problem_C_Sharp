@@ -23,5 +23,9 @@ namespace Generics_Problem_C_Sharp
             this.maxValue.Sort();
             Console.WriteLine(this.maxValue[this.maxValue.Count - 1]);
         }
+        public void printMaxValue(int value)
+        {
+            Console.WriteLine("Maximum values is :: ", this.maxValue[value]);
+        }
     }
 }
